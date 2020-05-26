@@ -18,7 +18,7 @@
 
 readonly PROGNAME=$(basename "$0")
 readonly DEFAULT_CONTEXT="whoami; hostname"
-readonly DEFAULT_EXCLUDES="0,7,15"
+readonly DEFAULT_EXCLUDES="0,7,15,241"
 readonly DEFAULT_METHOD="sum"
 
 __context_color_usage() {
