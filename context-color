@@ -17,7 +17,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 readonly PROGNAME=$(basename "$0")
-readonly DEFAULT_CONTEXT="whoami; hostname; date +%V"
+readonly DEFAULT_CONTEXT="whoami; hostname"
 readonly DEFAULT_EXCLUDES="0,7,15,241"
 readonly DEFAULT_METHOD="sum"
 
